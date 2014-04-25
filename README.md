@@ -18,6 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
+{% codeblock lang:ruby %}
 require "rtb_decode"
 
 #allyes(好耶) gadx(google) tanx(淘宝)
@@ -36,6 +37,9 @@ rtb1.decode_price("T0ypIgALCQQK4qYHWmBPUjOzcMHUuumeVIPa8Q")
 rtb2 = Rtbdecode::ADExchange::Tanx.new config
   
 rtb2.decode_price("AbuI6wqbQlBm2UUAAAEAAADaQPIFMFCbeQ%3D%3D")
+{% endcodeblock %}
+
+
 
 ## Contributing
 
