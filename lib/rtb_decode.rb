@@ -1,5 +1,5 @@
 require "rtb_decode/version"
 
-module RtbDecode
-  # Your code goes here...
-end
+require "rtb_decode/adexchange"
+
+require "rtb_decode/config"
